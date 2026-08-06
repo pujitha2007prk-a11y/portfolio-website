@@ -3,15 +3,181 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My portfolio</title>
+    <title>My Portfolio | pujitha</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Full stack developer specializing in React, Node.js, and modern web technologies. Available for freelance projects and collaborations.">
+    <meta name="keywords" content="Soumik, Portfolio, Web Developer, React, Node.js, JavaScript, HTML, CSS, Freelance Developer">
+    <meta name="author" content="Soumik">
+    <title>My Portfolio | pujitha</title>
+    <!-- Open Graph Meta Tags for Social Media Sharing -->
+    <meta property="og:title" content="My Portfolio | pujitha">
+    <meta property="og:description" content="Full stack developer specializing in React, Node.js, and modern web technologies. Available for freelance projects and collaborations.">
+    <meta property="og:image" content="images/profile.jpg">
+    <meta property="og:url" content="[Your Portfolio URL]">
+    <meta property="og:type" content="website">
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="My Portfolio | Soumik">
+    <meta name="twitter:description" content="Full stack developer specializing in React, Node.js, and modern web technologies. Available for freelance projects and collaborations.">
+    <meta name="twitter:image" content="images/profile.jpg">
+    <!--Favicon-->
+    <link rel="icon" type="image/png" href="images/favicon.png" alt="Favicon">
+    
 </head>
 <body>
-    <h1>hello world</h1>
-    <h2>this is a sample html</h2>
-    <h3>this is 3rd level haeding</h3>
-    <h4>this is 4th level heading</h4>
-    <h5>this is 5th level heading</h5>
-    <h6>this is 6th level heading</h6>
-    
+ 
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+ 
+    <!-- HERO SECTION -->
+    <header>
+        <h1>Hi, I'm pujitha 👋</h1>
+        <p>I'm a passionate web developer from [City].</p>
+        <a href="#contact">Hire Me</a>
+    </header>
+ 
+    <!-- ABOUT SECTION -->
+    <section id="about">
+        <h2>About Me</h2>
+        <figure class="profile-figure">
+                    <img src="images/profile.jpg" alt="pujitha profile photo" width="300">
+                    <figcaption>pujitha — Web Developer</figcaption>
+                </figure>
+ 
+    </section>
+ 
+    <section id="skills">
+        <h2>My Skills</h2>
+
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Python</li>
+        </ul>
+
+        <h3>Skills Table</h3>
+
+        <table>
+            <tr>
+                <th>Technology</th>
+                <th>Proficiency</th>
+            </tr>
+
+            <tr>
+                <td>HTML</td>
+                <td>Advanced</td>
+            </tr>
+
+            <tr>
+                <td>CSS</td>
+                <td>Intermediate</td>
+            </tr>
+
+            <tr>
+                <td>JavaScript</td>
+                <td>Intermediate</td>
+            </tr>
+
+            <tr>
+                <td>React</td>
+                <td>Beginner</td>
+            </tr>
+
+            <tr>
+                <td>Python</td>
+                <td>Intermediate</td>
+            </tr>
+        </table>
+
+    </section>
+    <!-- PROJECTS SECTION -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-card">
+            <h3>Project 1</h3>
+            <p>Description of project 1</p>
+            <a href="#">View Project</a>
+        </div>
+        <!--Embed YouTube Video (iframe)-->
+            <iframe width="300" height="169" src="https://www.youtube.com/embed/tqjJrXd27m4" title="YouTube video player" frameborder="0" allowfullscreen sandbox="allow-same-origin allow-scripts"></iframe>
+    </section>
+    </form>
+</section>
+ 
+
+        <!-- CONTACT SECTION -->
+           <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Have a project in mind? Let's talk!</p>
+    <section id="contact">
+        <p>Email: <a href="mailto:pujitha.2007@email.com">pujitha.2007@email.com</a></p>
+    </section>
+    <form action="#" method="POST">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name"
+               placeholder="Enter your name" required>
+ 
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email"
+               placeholder="Enter your email" required>
+               <label for="subject">Subject</label>
+        <select id="subject" name="subject">
+            <option value="">-- Select a topic --</option>
+            <option value="hire">I want to hire you</option>
+            <option value="collab">I want to collaborate</option>
+            <option value="other">Other</option>
+        </select>
+ 
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5"
+                  placeholder="Tell me about your project..." required></textarea>
+                  <!-- Password -->
+        <label>Password:</label><br>
+        <input type="password" name="password" placeholder="Enter Password" required><br><br>
+
+        <!-- Phone Number -->
+        <label>Phone Number:</label><br>
+        <input type="tel" name="phone" placeholder="Enter Phone Number" required><br><br>
+
+        <!-- Country -->
+        <label>Country:</label><br>
+        <select name="country">
+            <option value="">--Select Country--</option>
+            <option>India</option>
+            <option>United States</option>
+            <option>United Kingdom</option>
+            <option>Canada</option>
+            <option>Australia</option>
+        </select><br><br>
+
+        <!-- Experience Level -->
+        <label>Experience Level:</label><br>
+
+        <input type="radio" id="beginner" name="experience" value="Beginner">
+        <label for="beginner">Beginner</label>
+
+        <input type="radio" id="intermediate" name="experience" value="Intermediate">
+        <label for="intermediate">Intermediate</label>
+
+        <input type="radio" id="advanced" name="experience" value="Advanced">
+        <label for="advanced">Advanced</label>
+
+        <br><br>
+ 
+     <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 pujitha. All rights reserved.</p>
+    </footer>
+
+        
+ 
 </body>
 </html>
+ 
